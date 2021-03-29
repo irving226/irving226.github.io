@@ -2802,7 +2802,7 @@
 			width: 100%;
 			height: 100%;
 			display: block;
-
+			background-image: url(../../images/bg.jpg);
 			background-size: cover;
 			background-repeat: no-repeat;
 			opacity: 0.35;
@@ -3254,7 +3254,8 @@
 
 		@media screen and (max-width: 1280px) {
 
-		
+			.wrapper > .inner {
+				width: 65em;
 			}
 
 		}
@@ -3310,7 +3311,7 @@
 		}
 
 			.video .image .arrow {
-				position: relative;
+				position: absolute;
 				top: 0;
 				left: 0;
 				width: 100%;
@@ -3637,12 +3638,12 @@
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
 		justify-content: center;
-
+		background-image: url("../../images/banner.jpg");
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
 		border-top: 0;
-		-height: 100vh;
+		min-height: 100vh;
 		height: 100vh !important;
 		position: relative;
 		text-align: center;
